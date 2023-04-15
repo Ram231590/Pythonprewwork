@@ -34,11 +34,11 @@ def hello_name(user_name):
     Question #4
     
     def is_leap_year(a_year)
-        year=int(input("Enter the year:"))
-        if (year%400==0) and (year%100==0):
+    year=int(input("Enter the year:"))
+    if (year%400==0) and (year%100==0):
             print(year,"is leap year")
 
-        elif (year%4==0) and (year%100 !=0):
+    elif (year%4==0) and (year%100 !=0):
             print(year,"is leap year")
 
         else:
