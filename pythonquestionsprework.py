@@ -21,14 +21,14 @@ def hello_name(user_name):
 
         
     Question #4
-    
     def is_leap_year(a_year):
-            if a_year % 400 --0:
+            if a_year % 400 == 0:
                 return True
             
             else:
                 return False
             print(is_leap_year(2000))
+ 
   
     Question #5
     
